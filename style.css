@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;1,400&family=Work+Sans:wght@700&display=swap');
+/* style section */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+
+.header{
+    background: rgba(255, 144, 14, 0.1);
+    opacity: 0.9;
+    
+    
+}
+.project-taitle{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 128px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+nav ul{
+    display: flex;
+    padding-right: 100px;
+    
+
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 24px;
+    font-size: 18px;
+    color: #424242;
+}
+.section-info{
+    text-align: center;
+    width: 862px;
+    height: 225px;
+    
+    margin-left: 230px;
+}
+.section-taitle{
+    font-size: 64px;
+    font-weight: 700;
+}
+.section-dec{
+    font-size: 16px;
+    color: #727272;
+    margin-top: 36px;
+}
+.button{
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 24px;
+    border-radius: 5px;
+    border: 0;
+    
+}
+.img img{
+    width: 1050px;
+    height: 500px;
+    padding: 5px 140px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+}
+
+/* project style */
+.our-projects{
+    padding: 80px 200px;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.images img{
+    width: 205px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.project-details{
+    width: 330px;
+}
+.frist-later{
+    color:  #727272;
+    font-size: 45px;
+}
+.second-later{
+    color:   #131313;
+    font-size: 45px;
+}
+.third-later{
+    font-size: 45px;
+  color: #FF900E;
+}
+.project-dec{
+    font-size: 16px;
+    color: #727272;
+    margin-top: 14px;
+    margin-bottom: 22px;
+}
+
+/* expriences */
+.expriences{
+    width: 1100px;
+    height: 1000px;
+    margin-left: 120px;
+   
+}
+.exprience{
+    display: flex;
+    gap: 64px;
+}
+.ex-dec{
+    font-size: 16px;
+    color: #727272;
+}
+.exprience-taitle{
+    font-size: 45px;
+    margin-bottom: 14px;
+    border-left: 4px solid orange;
+}
+.exprience-dec div{
+    box-shadow: 10px 6px 25px 15px rgb(240, 224, 224);
+    padding: 15px;
+    border-radius: 9px;
+    margin-top: 14px;
+}
+.ex-images img{
+    width: 600px;
+}
+.ex-button{
+    background-color: orange;
+    padding: 35px 32px;
+    border-radius: 7px;
+    color: white;
+    border: 0;
+    font-size: 45px;
+    margin-top: -60px;
+    margin-left: -45px;
+}
+
+.section-text{
+    margin-top: 20px;
+}
+
+
+
+
+/* ------------------ */
+.some-text{
+    margin-left: 120px;
+}
+.section-text{
+    font-size: 45px;
+}
+
+.service-icon{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 144px;
+}
+.service-icon div{
+    width: 150px;
+    border: 2px solid orange;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.service-icon h4{
+    font-size: 20px ;
+    color: #727272;
+}
+
+
+
+
+
+
+/* logo section */
+.tex-section{
+    text-align: center;
+    margin-bottom: 60px;
+   
+}
+.logo-taitle{
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.logo-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+footer h3{
+    
+    background: #FFF4E7;
+    margin: 144px 64px 100px 64px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+/* optional mark  */
+
+
+/* -------------
+--------------- */
+.option-title{
+   
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+    text-align: center;
+    margin-top: 44px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    max-width: 1072px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 130px;
+    
+}
+.skill-title{
+    font-weight: 700;
+font-size: 20px;
+margin-bottom: 20px;
+}
+.skill-dec{
+    color: #757575;
+    font-size: 16px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 577px) {
+    nav{
+        width: 100%;
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .section-taitle{
+        font-size: 45px;
+    }
+    .project-taitle{
+        margin-left: 22px;
+    }
+    .section-dec{
+        width: 100%;
+        height: 100%;
+        border: 1px solid khaki;
+    }
+    .section-info{
+        display: block;
+        width: 100%;
+        height: 100%; 
+        
+        margin: 0;
+        padding: 0;
+    }
+    .img img{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        
+    }
+
+
+    /* project */
+    .our-projects{
+        padding: 34px;
+    }
+    .projects{
+        display: block;
+        
+    }
+    .images{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    .project-details{
+        width: 100%;
+        height: 100%;
+        border: 1px solid brown;
+    }
+
+    /* expriences */
+    .expriences{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .exprience-dec div{
+        width: 80%;
+        height: 80%;
+    }
+    .ex-images img{     
+        width: 100%;
+        height: 100%;
+    }
+    .ex-images .ex-button{
+        margin: 0;
+        margin-left: 20px;
+    }
+    .exprience{
+        display: block;
+    }
+    .ex-dec{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* services */
+    .some-text{
+       width: 100%;
+       margin: 0;
+    }
+    .service-icon{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 64px;
+    }
+    /* logo section  */
+    .logo-item{
+        flex-direction: column;
+    }
+
+   /* optional mark  */
+   .skills-container{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+   }
+}
